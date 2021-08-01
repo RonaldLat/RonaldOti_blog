@@ -3,9 +3,12 @@
     background: #BBBBBE
     color: $charcoalBlack
     width: 100%
-    padding: 0.5rem
+    //padding: 0.5rem
     margin: 0 auto
     margin-top: 5rem
+    max-width: 1200px
+    &>*
+      padding: 0 0.5rem
 .post-tag
     font-size: 0.8rem
     text-align: center
@@ -14,7 +17,7 @@
     color: $charcoalBlack
     border-bottom: 1px solid $mainColor
     border-bottom-width: 0
-    transition: all o.5s ease-in
+    transition: all 0.5s ease-in
     &:hover
         border-bottom-width: 100%
     &::before
@@ -158,6 +161,31 @@
     flex-direction: column
     align-items: center
     justify-content: center
+    p>code
+      padding: 0.2rem 
+      color: white
+      border-radius: 3px
+      background: #232425
+    pre>code
+      background: #232425
+      width: 100%
+      display: block
+      text-align: unset
+      padding: 0.7rem
+      margin: 1rem 0
+      font-size: 0.9rem
+      padding-top: 2rem
+      color: #BBBBBE
+      position: relative
+      &::before
+        content: ''
+        width: 100%
+        background: #1B1B1B
+        display: block
+        height: 1.5rem
+        top: 0
+        left: 0
+        position: absolute
     .article-hero
         width: 100%
         max-width: 100%
@@ -181,6 +209,10 @@
         margin: 1.0rem 0
     h2, h3, h4
         text-align: center
+        width: 100%
+    h3
+      text-align: left
+          
     ul
         text-align: left
         margin-left: 3rem

@@ -4,6 +4,25 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
+<div class="blog-hero">
+<h1>Get Great Content About Web And Tech</h1>
+<div class="blog-pitch">
+  <div class="blog-pitch-photo">
+    <img src="img/lat2-smaller.png" alt="Ronald Otieno's photo">
+  </div>
+  <p class="pitch-words">
+    Receive the tips I use to develop websites and web apps in the fastest and most efficient way!
+    </p>
+</div>
+<div class="cta-container">
+  <form>
+    <ul class="form-body">
+      <input type="text" placeholder="Email Address">
+      <button type="submit"> Get Tips</button>
+    </ul>
+  </form>
+</div>
+</div>
 {% set maxPosts = collections.posts.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
