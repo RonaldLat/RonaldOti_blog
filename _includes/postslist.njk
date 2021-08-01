@@ -1,0 +1,27 @@
+<ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+  {% for post in postslist | reverse %}
+    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+      <div class="article-card">
+
+        <h1>
+          <a href="/blog{{ post.url | url }}" class="postlist-link">
+            {% if post.data.title %}{{ post.data.title }}
+            {% else %}
+              <code>{{ post.url }}</code>
+            {% endif %}
+          </a>
+        </h1>
+
+        <h6>{{ post | readingTime }} read</h6>
+        <h6>
+          <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+        </h6>
+        {% for tag in post.data.tags | filterTagList %}
+          {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+          <a href="/blog{{ tagUrl | url }}" class="post-tag  ">{{ tag }}</a>
+        {% endfor %}
+
+      </div>
+    </li>
+  {% endfor %}
+</ol>

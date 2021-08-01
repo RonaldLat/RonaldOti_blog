@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+<article class="article-content">
+
+<h1>{{ title }}</h1>
+<div class="below-title">
+<span>{{ content | readingTime }} read</span>
+<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+<a href="/blog{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{%- endfor %}
+</div>
+{{ content | safe }}
+
+{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{%- if nextPost or previousPost %}
+<hr>
+<ul class="posts-pagination">
+  {%- if nextPost %}<li class="next-post">Next: <a href="/blog{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+  {%- if previousPost %}<li class="prev-post">Previous: <a href="/blog{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}
+</article>
+

@@ -1,0 +1,21 @@
+{
+  "title": "Ronald Otieno's Blog",
+  "url": "http://ronaldlat.github.io/blog",
+  "language": "en",
+  "description": "I write about Web development and Internet marketing",
+  "feed": {
+    "subtitle": "I write about Web development and Internet marketing",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Ronald Otieno",
+    "email": "ronnlats@gmail.com",
+    "url": "http://ronaldlat.github.io/about"
+  }
+}

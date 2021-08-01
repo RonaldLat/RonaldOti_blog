@@ -1,0 +1,77 @@
+$mainColor: #66ffda
+$navy: #0A192F
+$whitish: #ccd6f6
+$darkNavy: #020c1b
+$lightNavy: #112240
+$greyish: #8892b0
+$charcoalBlack: #54585D
+$flatGrey: #D2D1D1
+@mixin hover-animate-bg
+    &:hover
+
+        transform: translateY(-5px)
+        background: #66ffda1a
+    &:focus
+        transform: translateY(-5px)
+        background: #66ffda1a
+
+@mixin hover-animate-color
+    &:hover
+        transform: translateY(-5px)
+        color: #66ffda
+*
+    margin: 0
+    box-sizing: border-box
+    padding: 0
+    // list-style: none
+    text-decoration: none
+    // color: $whitish
+    // font-family: 'Play', sans-serif
+
+html
+    // min-height: -webkit-fill-available
+    width: 100%
+    min-width: 100%
+    max-width: 100%
+    margin: 0
+    padding: 0
+    overflow-x: hidden
+    background-color: #0A192F
+    p
+        max-width: 80ch
+html,body
+    max-width: 100%
+    overflow-x: hidden
+body
+    background-color: #0A192F
+
+    color: #040404
+    position: relative
+    box-sizing: border-box
+    width: 100%
+    min-width: 100%
+    position: relative
+    overflow-x: hidden
+    min-height: 100vh
+    display: flex
+    justify-content: center
+
+    
+
+
+// @media (min-width: 480px)
+//     body
+//         display: grid
+//         grid-template-columns: 5% auto 5%
+//         grid-template-rows: 1fr
+//         aside
+//             display: flex
+
+// @import "preloader"
+// @import "contact"
+@import "blog"
+@import "nav"
+// @import "home"
+// @import "about"
+// @import "portofolio"
+// @import "footer"
