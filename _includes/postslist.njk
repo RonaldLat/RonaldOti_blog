@@ -4,7 +4,7 @@
       <div class="article-card">
 
         <h1>
-          <a href="/blog{{ post.url | url }}" class="postlist-link">
+          <a href="{{ post.url | url }}" class="postlist-link">
             {% if post.data.title %}{{ post.data.title }}
             {% else %}
               <code>{{ post.url }}</code>
@@ -18,7 +18,7 @@
         </h6>
         {% for tag in post.data.tags | filterTagList %}
           {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-          <a href="/blog{{ tagUrl | url }}" class="post-tag  ">{{ tag }}</a>
+          <a href="{{ tagUrl | url }}" class="post-tag  ">{{ tag }}</a>
         {% endfor %}
 
       </div>
