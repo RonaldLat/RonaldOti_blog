@@ -438,7 +438,7 @@ nav .nav li a {
 .blog-hero {
   background-color: #0a192f;
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -450,6 +450,7 @@ nav .nav li a {
   font-weight: 800;
   line-height: 1.4;
   text-align: center;
+  max-width: 40ch;
 }
 .blog-hero .blog-pitch {
   display: flex;
@@ -468,7 +469,7 @@ nav .nav li a {
   border: 2px solid #d6d6d6;
 }
 .blog-hero .blog-pitch .pitch-words {
-  text-align: left;
+  text-align: center;
   color: #BBBBBE;
   font-size: 1.25rem;
   max-width: 35ch;
@@ -477,12 +478,20 @@ nav .nav li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 1rem;
 }
 .blog-hero .cta-container form {
   background-color: inherit;
 }
 .blog-hero .cta-container form .form-body {
   height: 100%;
+  width: 100%;
+  max-width: 40ch;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 .blog-hero .cta-container form .form-body input {
   height: 3.8rem;

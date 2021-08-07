@@ -42,11 +42,6 @@
   </url>
   
   <url>
-    <loc>http://ronaldlat.github.io/</loc>
-    <lastmod>2021-08-06</lastmod>
-  </url>
-  
-  <url>
     <loc>http://ronaldlat.github.io/page-list/</loc>
     <lastmod>2021-08-06</lastmod>
   </url>
@@ -57,12 +52,17 @@
   </url>
   
   <url>
+    <loc>http://ronaldlat.github.io/tags/interior-design/</loc>
+    <lastmod>2021-08-06</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ronaldlat.github.io/tags/linux/</loc>
     <lastmod>2021-08-06</lastmod>
   </url>
   
   <url>
-    <loc>http://ronaldlat.github.io/tags/interior-design/</loc>
+    <loc>http://ronaldlat.github.io/tags/pwa/</loc>
     <lastmod>2021-08-06</lastmod>
   </url>
   
@@ -77,7 +77,7 @@
   </url>
   
   <url>
-    <loc>http://ronaldlat.github.io/tags/pwa/</loc>
+    <loc>http://ronaldlat.github.io/</loc>
     <lastmod>2021-08-06</lastmod>
   </url>
 </urlset>
