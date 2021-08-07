@@ -7,6 +7,8 @@
     "build": "eleventy",
     "watch": "eleventy --watch",
     "start": "eleventy --serve",
+    "deploy": "npx firebase deploy",
+    "clean": "rm -rf build",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
