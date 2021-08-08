@@ -1,5 +1,5 @@
 ---
-title: Top 10 Most Useful Tmux commands
+title: Top 11 Most Useful Tmux commands
 description: Unleash the power of tmux with these 10 powerful commands
 date: 2021-08-01
 tags: linux
@@ -39,3 +39,6 @@ It is one of the tools you never know you need until you start using.
 
 ### 10. Toggle last active pane
 `prefix ;`
+
+### 11. List key bindings
+`prefix? `
