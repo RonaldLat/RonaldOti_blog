@@ -21,8 +21,8 @@ templateClass: tmpl-post
 {%- if nextPost or previousPost %}
 <hr>
 <ul class="posts-pagination">
-  {%- if nextPost %}<li class="next-post">Next: <a href="/{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li class="prev-post">Previous: <a href="/{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+  {%- if nextPost %}<li class="next-post">Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+  {%- if previousPost %}<li class="prev-post">Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
 </ul>
 {%- endif %}
 </article>
