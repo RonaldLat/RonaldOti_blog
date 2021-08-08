@@ -9,7 +9,7 @@
     "start": "eleventy --serve",
     "deploy": "firebase deploy",
     "clean": "rm -rfv build",
-    "sass": "rm css/style.css && sass css/style.sass css/style.css",
+    "sass": "rm -v css/style.css && sass css/style.sass css/style.css",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
