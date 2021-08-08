@@ -8,7 +8,7 @@
     "watch": "eleventy --watch",
     "start": "eleventy --serve",
     "deploy": "firebase deploy",
-    "clean": "rm -rf build",
+    "clean": "rm -rfv build",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
