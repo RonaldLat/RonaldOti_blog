@@ -11,16 +11,16 @@ A Domain Name is like an address book of the internet. How is a customer or clie
 Potential cliens and customers expect to find you online and having a domain name is the first step of helping them achieve that. 
 In this article I will tell you even more reason why getting a domain name in 2021 is a wise thing to do for your business. 
 
-### Increases brand awareness
+### 1. Increases brand awareness
 
-### Search engine positioning
+### 2. Search engine positioning
 
-### Establishes trust and credibility
+### 3. Establishes trust and credibility
 
-### Create precence on the internet
+### 4. Create precence on the internet
 
-### Your business will not use generic email addreses
+### 5. Your business will not use generic email addreses
 
-### Take ownership of your platform
+### 6. Take ownership of your platform
 
-### Make it easier for customers to find you or your business
+### 7. Make it easier for customers to find you or your business
