@@ -10,6 +10,7 @@
     "deploy": "firebase deploy",
     "clean": "rm -rfv build",
     "sass": "rm -v css/style.css && sass css/style.sass css/style.css",
+    "sass-watch": "sass --watch css/style.sass css/style.css",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {

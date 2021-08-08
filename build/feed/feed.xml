@@ -5,7 +5,7 @@
 	
 	<link href="http://ronaldlat.github.io/feed/feed.xml" rel="self"/>
 	<link href="http://ronaldlat.github.io/blog"/>
-	<updated>2021-08-01T00:00:00Z</updated>
+	<updated>2021-08-07T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Ronald Otieno</name>
@@ -13,7 +13,25 @@
 	</author>
 	
 	<entry>
-		<title>Top 10 Most Useful Tmux commands</title>
+		<title>Seven Reasons To Buy A Domain Name In 2021</title>
+		<link href="http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/"/>
+		<updated>2021-08-07T00:00:00Z</updated>
+		<id>http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/</id>
+		<content type="html">&lt;p&gt;A Domain Name is like an address book of the internet. How is a customer or client supposed to find you if you don&#39;t an address.&lt;br /&gt;
+Potential cliens and customers expect to find you online and having a domain name is the first step of helping them achieve that.&lt;br /&gt;
+In this article I will tell you even more reason why getting a domain name in 2021 is a wise thing to do for your business.&lt;/p&gt;
+&lt;h3 id=&quot;1.-increases-brand-awareness&quot;&gt;1. Increases brand awareness &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/#1.-increases-brand-awareness&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;2.-search-engine-positioning&quot;&gt;2. Search engine positioning &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/#2.-search-engine-positioning&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;3.-establishes-trust-and-credibility&quot;&gt;3. Establishes trust and credibility &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/#3.-establishes-trust-and-credibility&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;4.-create-precence-on-the-internet&quot;&gt;4. Create precence on the internet &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/#4.-create-precence-on-the-internet&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;5.-your-business-will-not-use-generic-email-addreses&quot;&gt;5. Your business will not use generic email addreses &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/#5.-your-business-will-not-use-generic-email-addreses&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;6.-take-ownership-of-your-platform&quot;&gt;6. Take ownership of your platform &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/#6.-take-ownership-of-your-platform&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;7.-make-it-easier-for-customers-to-find-you-or-your-business&quot;&gt;7. Make it easier for customers to find you or your business &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/7-reaons-to-get-domain-name/#7.-make-it-easier-for-customers-to-find-you-or-your-business&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Top 11 Most Useful Tmux commands</title>
 		<link href="http://ronaldlat.github.io/posts/10-most-useful-tmux-commands/"/>
 		<updated>2021-08-01T00:00:00Z</updated>
 		<id>http://ronaldlat.github.io/posts/10-most-useful-tmux-commands/</id>
@@ -40,6 +58,8 @@ It is one of the tools you never know you need until you start using.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;prefix p&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&quot;10.-toggle-last-active-pane&quot;&gt;10. Toggle last active pane &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/10-most-useful-tmux-commands/#10.-toggle-last-active-pane&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;prefix ;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;11.-list-key-bindings&quot;&gt;11. List key bindings &lt;a class=&quot;direct-link&quot; href=&quot;http://ronaldlat.github.io/posts/10-most-useful-tmux-commands/#11.-list-key-bindings&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;prefix? &lt;/code&gt;&lt;/p&gt;
 </content>
 	</entry>
 	

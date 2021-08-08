@@ -199,6 +199,9 @@ body {
   border-radius: 3px;
   background: #232425;
 }
+.article-content pre {
+  width: 100%;
+}
 .article-content pre > code {
   background: #232425;
   width: 100%;
@@ -210,6 +213,7 @@ body {
   padding-top: 2rem;
   color: #BBBBBE;
   position: relative;
+  overflow: auto;
 }
 .article-content pre > code::before {
   content: "";
