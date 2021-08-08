@@ -39,6 +39,8 @@ jobs:
       - name: Clean previous build
         run: npm run clean
         
+      - name: Compile sass to css
+        run: npm run sass
         
       - name: Build Eleventy
         run: npm run build
