@@ -11,7 +11,7 @@ layout: layouts/post.njk
 After using the node package manager for some time you will notice that space in your hard disk is disappearing.
 Deleting the packages which are no longer in use is a challenge because you don't know which are they and where they are stored in your computer.
 
-<img class="article-hero" src="/img/npm_heavy2.png" alt="heaviest objects are node module" />
+<img class="article-hero" src="/img/npm_heavy2.jpg" alt="heaviest objects are node module" />
 
 There is a less know npm command that can be used to save this problem. By just running this single command you will get a list on all npm in your machine that can br deleted.
 
