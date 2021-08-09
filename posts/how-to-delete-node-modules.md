@@ -1,4 +1,3 @@
-
 ---
 title: How to delete node modules like a ninja
 description: Learn how you to delete unused node modules from your computer and free your hard drive.
