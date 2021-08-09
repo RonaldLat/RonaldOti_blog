@@ -42,8 +42,15 @@ jobs:
       - name: Compile sass to css
         run: npm run sass
         
+      - name: Add vendor prefixes to css
+        run: npm run prefix
+        
+
       - name: Build Eleventy
         run: npm run build
+
+      - name: Move css to build dir
+        run: npm run move-css
 
       - name: Deploy
         run: npm run deploy
