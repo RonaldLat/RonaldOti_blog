@@ -72,6 +72,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css/style.css");
   eleventyConfig.addPassthroughCopy("favicon.png");
+  eleventyConfig.addPassthroughCopy("index.js");
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
