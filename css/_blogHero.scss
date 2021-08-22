@@ -11,9 +11,10 @@
   h1{
     font-weight: 800;
     line-height: 1.4;
-    text-align: center;
+    text-align: left;
     max-width: 40ch;
-    font-size: clamp(1rem, -0.875rem + 8.333vw, 2.2rem);
+    font-size: clamp(1.95rem, -0.875rem + 8.333vw, 2.2rem);
+    font-family: "Play", sans-serif;
   }
   .blog-pitch{
     display: flex;
@@ -32,7 +33,7 @@
       border: 2px solid #d6d6d6;
     }
     .pitch-words{
-      text-align: center;
+      text-align: left;
       color: #BBBBBE;
       font-size: 1.25rem;
       max-width: 35ch;
@@ -60,12 +61,13 @@
           line-height: 1.4;
           border: 1px solid #e6e6e6;
           border-radius: 6px;
+          background: hsl(165, 100%, 97%);
           box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
           color: #000;
           font-size: 1.25rem;
           transition: all 0.5% ease;
           &:hover{
-            background:darken( white, 25%)
+            background:hsl(165, 100%, 100%)
             
           }
         }
@@ -80,12 +82,13 @@
           cursor: pointer;
           border-color: #66ffda;
           font-weight: 600;
-          font-size: 1.125rem;
+          font-size: 1.225rem;
           user-select: none;
           text-align: center;
           transition: all 0.5s ease;
+          font-family: 'Play', san-serif;
           &:hover{
-            background: darken(#66ffda, 25%);
+            background: hsl(165, 100%, 70%);
           }
         }
       }
