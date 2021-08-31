@@ -26,7 +26,7 @@ Lower the number of HTTP requests your website has to make to fetch resouces or 
 You can also cache resouces to clients devices so that they don't have to download the same things again if they make a return visit. This will make your website faster for them as they will be downloading fewer items. 
 This can be accomplished by the help of `web workers` which work in ***Progressive Web Apps*** You can check out <a href=""> the benefits of turning your website into PWA </a> in this article.
 
-### Link to internally
+### Link internally
 
 Internal linking or Inbound linking is very important in keeping visitors in your website for longer. A visitor will find more content to consume by finding links of other resources distributed throught the website and this will in return reduce bounce rate. 
 
